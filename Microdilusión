@@ -1,0 +1,49 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Microdilución</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Microdilución: Técnica Microbiológica</h1>
+    <nav>
+      <a href="#que-es">¿Qué es?</a>
+      <a href="#proceso">Proceso</a>
+      <a href="#simulador">Simulador</a>
+    </nav>
+  </header>
+
+  <section id="que-es">
+    <h2>¿Qué es la microdilución?</h2>
+    <p>La microdilución es una técnica para determinar la sensibilidad de bacterias a antibióticos...</p>
+  </section>
+
+  <section id="proceso">
+    <h2>Proceso paso a paso</h2>
+    <ol>
+      <li>Preparar el inóculo</li>
+      <li>Distribuir en placa de 96 pocillos</li>
+      <li>Añadir antibióticos a concentraciones crecientes</li>
+      <li>Incubar</li>
+      <li>Observar crecimiento</li>
+    </ol>
+  </section>
+
+  <section id="simulador">
+    <h2>Simulador de Microdilución</h2>
+    <div id="simulador-container">
+      <!-- Aquí va el simulador -->
+    </div>
+    <button onclick="simular()">Simular crecimiento</button>
+  </section>
+
+  <footer>
+    <p>Trabajo universitario - Microbiología</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
